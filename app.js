@@ -131,11 +131,11 @@ function searchMovieTrailer(movieName, iframId) {
     .catch(err=>console.log(err));
 }
 
-window.addEventListener("load", function(){
+Window.addEventListener("load", function(){
     init();
-    window.addEventListener("scroll", function(){
+    Window.addEventListener("scroll", function(){
         const header= this.document.getElementById("header");
-        if(this.window.scrollY>5) header.classList.add("black-bg")
+        if(this.Window.scrollY>5) header.classList.add("black-bg")
         else(header.classList.remove("black-bg"));
     })
 })
