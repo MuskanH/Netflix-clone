@@ -42,7 +42,7 @@ function buildBannerSection(movie){
        <button class="action-btns"><i class="fa-solid fa-circle-info"></i>More info</button>
     </div>
    
-    `;
+     `;
     div.className = "banner-content container";
 
     bannerCont.append(div);
