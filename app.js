@@ -134,8 +134,12 @@ function searchMovieTrailer(movieName, iframId) {
 window.addEventListener("load", function(){
     init();
     window.addEventListener("scroll", function(){
-        const header= this.document.getElementById("header");
-        if(window.scrollY>5) header.classList.add("black-bg")
-        else(header.classList.remove("black-bg"));
-    })
-})
+        const header = document.getElementById("header");
+        if (window.scrollY > 5) {
+            header.classList.add("black-bg");
+        } else {
+            header.classList.remove("black-bg");
+        }
+    });
+});
+
